@@ -1,4 +1,4 @@
-name := "kafka_producer"
+name := "kafka_processor"
 
 version := "1.0"
 
