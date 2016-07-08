@@ -29,9 +29,9 @@ print out the messages until stopped.
 ## Building & Running
 1. To run the producer:
     `
-        sbt "run-main com.qburst.main.ProducerMain <topic_name_" < ps aux
+        sbt "run-main com.qburst.main.ProducerMain <topic_name>" < ps aux
     `
 2.  To run the consumer:
     `
-        sbt "run-main com.qburst.main.ConsumerMain topic_name"
+        sbt "run-main com.qburst.main.ConsumerMain <topic_name>"
     `   
