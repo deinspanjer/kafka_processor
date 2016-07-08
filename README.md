@@ -27,6 +27,10 @@ print out the messages until stopped.
 
 
 ## Building & Running
+### Building
+Get the docker running: `docker-compose up -d`
+
+### Running
 1. To run the producer:
     `
         ps aux | sbt "run-main com.qburst.main.ProducerMain <topic_name>"
